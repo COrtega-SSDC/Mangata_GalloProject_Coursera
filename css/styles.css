@@ -1,0 +1,131 @@
+
+body {
+    background-color: snow;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;    
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 35%;
+}
+
+nav {
+    background-color: rgb(238, 238, 238);
+    border-style: solid;
+    border-color: rgb(238, 238, 238);
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    padding: 3px 30px;
+    font-size: 18px;
+    
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul li:hover {
+    text-decoration: underline;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1; 
+    margin-top: 3rem;
+}
+
+#bridal {
+    background-image: url('../pexels-photo-3156648-875125827.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    border-radius: 1rem;
+}
+
+#customize {
+    background-color: rgb(244, 224, 220);
+    border-radius: 1rem;
+    text-align: center;
+}
+
+#handcrafted {
+    background-color: rgb(244, 224, 220);
+    border-radius: 1rem;
+    margin-left: 1.5rem;
+    text-align: center;
+}
+
+#gift {
+    background-color: rgb(244, 224, 220);
+    border-radius: 1rem;
+    margin-left: 1.5rem;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+#sale {
+    margin-bottom: 0rem;
+    border-bottom: 0rem;
+    padding-bottom: 0rem;
+}
+
+#percent {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(237, 239, 238);
+    border-style: solid;
+    border-color: rgb(237, 239, 238);
+    border-radius: 1rem;
+    margin-top: 2.5rem;
+}
+
+footer > div {
+    flex: 1;
+    margin-top: 1rem;
+}
+
+footer p {
+    margin-top: 0rem;
+    text-align: right;
+    padding-right: 1rem;
+    padding-top: 0.2rem;
+    
+}
+
+footer img {
+    padding-left: 1rem;
+}
